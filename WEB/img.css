@@ -1,0 +1,39 @@
+.block|1 {
+	width: 300px;
+	height: 300px;
+	margin: 100px;
+	background: #0E9F98;
+}
+.block|2 {
+	width: 300px;
+	height: 300px;
+	margin: 100px;
+	background: #04BF9D;
+}
+.block|3 {
+	width: 300px;
+	height: 300px;
+	margin: 100px;
+	background: #F4E85C;
+}
+.block-1 {
+	width: 400px;
+	height: 300px;
+	margin: 20px;
+	background: #0E9F98;
+	float: right;
+}
+.block-2 {
+	width: 400px;
+	height: 300px;
+	margin: 20px;
+	background: #04BF9D;
+	float: left;
+}
+.block-3 {
+	width: 400px;
+	height: 300px;
+	margin: 20px;
+	background: #F4E85C;
+	float: left;
+}

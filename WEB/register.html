@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>karinshopphoto</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" href="blueberry.css" />
+  <style type="text/css">
+      * {
+      	margin: 0;
+      	border: 0;
+      	padding: 0;
+      }
+      .blueberry { max-width: 960px; }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <script src="jquery.blueberry.js"></script>
+
+  <script>
+      $(window).load(function() {
+      	$('.blueberry').blueberry();
+      });
+  </script>
+</head>
+<body id="top">
+  <!-- Top Background Image Wrapper -->
+    <div class="wrapper row1">
+      <header id="header" class="hoc clear">
+
+        <div id="logo" class="fl_left">
+          <a href="index.html"><img src="c.png"width="10px"></a>
+        </div>
+        <nav id="mainav" class="fl_right">
+          <ul class="clear">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a class="drop" href="#">setting</a>
+              <ul>
+                <li><a href="login.html">login</a></li>
+                <li><a href="register.html">register</a></li>
+              </ul>
+            </li>
+        </nav>
+
+      </header>
+    </div>
+<center><form method="POST" name="register" action="save_register.php">
+  <thead>
+      <h1>REGISTER</h1>
+  </thead>
+  <br><br>
+  <td>username</td>
+  <p><input style="color:black" type="text" name="name"></p>
+  <td>password</td>
+  <p><input style="color:black" type="password" name="password"></p>
+  <td>email</td>
+  <p><input style="color:black" type="text" name="email"></p>
+  <td>address</td>
+  <p><input style="color:black" type="text" name="address"></p><br>
+  <button type="submit" name="submit">save</button>
+</form></center>
+</body>
+</html>
